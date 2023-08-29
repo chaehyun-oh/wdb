@@ -6,3 +6,4 @@
 | Day       | Title                                                   |
 | --------- | ------------------------------------------------------- |
 | [Day 1]() | S.18 Advanced JavaScript and DOM Manipulation (135~137) |
+| [Day 2]() | S.18 Advanced JavaScript and DOM Manipulation (138~139) |
