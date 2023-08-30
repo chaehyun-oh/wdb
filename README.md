@@ -7,3 +7,4 @@
 | --------- | ------------------------------------------------------- |
 | [Day 1]() | S.18 Advanced JavaScript and DOM Manipulation (135~137) |
 | [Day 2]() | S.18 Advanced JavaScript and DOM Manipulation (138~139) |
+| [Day 3]() | S.18 Advanced JavaScript and DOM Manipulation (140~142) |
