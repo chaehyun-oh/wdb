@@ -6,11 +6,14 @@ for (var i = 0; i < drumBtn.length; i++) {
         var buttonInnerHTML = this.innerHTML;
 
         makeSound(buttonInnerHTML);
+
+        buttonAnimation(buttonInnerHTML);
     });
 }
 
 document.addEventListener('keypress', function (e) {
     makeSound(e.key);
+    buttonAnimation(e.key);
 })
 
 function makeSound(key) {
@@ -50,3 +53,34 @@ function makeSound(key) {
             break;
     }
 }
+
+function buttonAnimation(curKey) {
+    var activeButton = document.querySelector("." + curKey);
+
+    activeButton.classList.add('pressed');
+
+    setTimeout(function () {
+        activeButton.classList.remove('pressed');
+    }, 200);
+
+}
+
+
+// --------------------
+/*
+function ex(typeOfEvent, callback) {
+    var eventThatHappened = {
+        eventType: "keypress",
+        key: "p",
+        durationOfKeypress: 2,
+    }
+
+    if (eventThatHappened.eventType === typeOfEvent) {
+        callback(eventThatHappened);
+    }
+};
+
+ex("keypress", function (e) {
+    console.log(e);
+})
+*/

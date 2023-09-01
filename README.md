@@ -9,3 +9,4 @@
 | [Day 2]() | S.18 Advanced JavaScript and DOM Manipulation (138~139) |
 | [Day 3]() | S.18 Advanced JavaScript and DOM Manipulation (140~142) |
 | [Day 4]() | S.18 Advanced JavaScript and DOM Manipulation (143~145) |
+| [Day 5]() | S.18 Advanced JavaScript and DOM Manipulation (146~149) |
