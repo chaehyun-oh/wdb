@@ -11,4 +11,4 @@
 | [Day 4]() | S.18 Advanced JavaScript and DOM Manipulation (143~145) |
 | [Day 5]() | S.18 Advanced JavaScript and DOM Manipulation (146~149) |
 | [Day 6]() | S.21 The Unix Command Line (187~190)                    |
-| [Day 7]() | S.21 The Unix Command Line (189~190)                    |
+| [Day 7]() | S.22 Backend Web Development (191~192)                  |
