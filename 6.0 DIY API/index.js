@@ -9,19 +9,56 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 //1. GET a random joke
 
+app.get('/random', (req, res) => {
+  const randomIndex = Math.floor(Math.random() * jokes.length);
+  res.json(jokes[randomIndex]);
+})
+
 //2. GET a specific joke
+
+app.get('/jokes/:id', (req, res) => {
+  const id = parseInt(req.params.id);
+  const foundJoke = jokes.find((joke) => joke.id === id);
+  res.json(foundJoke);
+})
 
 //3. GET a jokes by filtering on the joke type
 
+app.get('/filter', (req, res) => {
+  const type = req.query.type;
+  const filteredActivities = jokes.filter((joke) => joke.jokeType === type);
+  res.json(filteredActivities);
+});
+
 //4. POST a new joke
+
+app.post('/', (req, res) => {
+
+});
 
 //5. PUT a joke
 
+app.put('/', (req, res) => {
+
+});
+
 //6. PATCH a joke
+
+app.patch('/', (req, res) => {
+
+});
 
 //7. DELETE Specific joke
 
+app.delete('/', (req, res) => {
+
+});
+
 //8. DELETE All jokes
+
+app.delete('/', (req, res) => {
+
+})
 
 app.listen(port, () => {
   console.log(`Successfully started server on port ${port}.`);
