@@ -29,3 +29,4 @@
 | [Day 22]()                     | S.25 EJS(213~214)                                       |
 | [Day 23]()                     | S.30 Build Your Own API (234)                           |
 | [Day 24]()                     | S.30 Build Your Own API (235)                           |
+| [Day 25]()                     | S.30 Build Your Own API (236~237)                       |
