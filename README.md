@@ -32,3 +32,5 @@
 | [Day 25]()                     | S.30 Build Your Own API (236~237)                       |
 | [Day 26]()                     | S.30 Build Your Own API (238~239)                       |
 | [Day 27]()                     | S.31 Databases(240~241)                                 |
+| [Day 28]()                     | S.32 SQL(242)                                           |
+| [Day 29]()                     | S.32 SQL(243~245)                                       |
