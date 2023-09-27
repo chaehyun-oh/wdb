@@ -36,4 +36,5 @@
 | [Day 29]()                     | S.32 SQL(243~245)                                       |
 | [Day 30]()                     | S.32 SQL(243~245)                                       |
 | [Day 31]()                     | S.32 SQL(246~247)                                       |
-| [Day 32]()                     | S.33 Authentication & Security(284 ~ 285)               |
+| [Day 32]()                     | S.33 Authentication & Security(284~285)                 |
+| [Day 33]()                     | S.33 Authentication & Security(284 ~ 286)               |
